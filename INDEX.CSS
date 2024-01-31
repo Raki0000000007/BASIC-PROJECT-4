@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: darkgrey;
+}
+.container{
+    max-width: 900px;
+    padding: 20px;
+    background-color: blanchedalmond;
+    margin: 0px auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.container h1{
+    text-align: center;
+    font-size: 35px;
+}
+span{
+    font-family:'Gowun Batang', serif;
+    font-size: 20px;
+    color: red;
+}
+.form-container{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px,1fr));
+    margin-top: 20px;
+    grid-gap: 20px;
+}
+.input
+{
+    display: flex;
+    flex-direction: column;
+}
+.bottom{
+   
+   display: flex;
+   justify-content:center;
+}
+input {
+    border: 2px solid black;
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+select{ 
+    border: 2px solid black;
+    height: 30px;
+    border-radius: 10px;}
+textarea{
+    border: 2px solid black;
+    
+    border-radius: 10px;
+}
+
+#submit{
+    height: 30px;
+    width: 66px;
+ 
+    margin-top: 10px 
+}
+label{
+    font-size: 25px;
+}
+@media screen and (width<600px){
+    .container{
+        max-width: 600px;
+        padding: 20px;
+        background-color: lightcoral;
+        margin: 0px auto;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+}
+@media screen and (width>600px) and (width<700px){
+    .container{
+        max-width: 800px;
+        padding: 20px;
+        background-color:lightblue;
+        margin: 0px auto;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+}
+@media screen and (width>900px){
+    .container{
+        max-width: 800px;
+        padding: 20px;
+        background-color:lightcyan;
+        margin: 0px auto;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+}
